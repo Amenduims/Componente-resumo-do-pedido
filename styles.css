@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #a8aeff, #2428ff);;
+
+}
+
+.container{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+#music_logo{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h4, p{
+    color: black;
+    text-align: center;
+} 
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+#subtittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.price{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    display: flex;
+    width: calc(100% - 60px);
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#music_icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+#annual_plan{
+    display: grid;
+    place-items: center;
+}
+
+#annual_plan p{
+    margin: 1px;
+    font-size: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#change{
+    font-size: 8px;
+    margin-left: auto;
+    margin-right: 10px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#payment{
+    width: calc(100% - 60px);
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(100, 0, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#cancel{
+    color: rgb(65, 65, 65);
+    font-size: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
